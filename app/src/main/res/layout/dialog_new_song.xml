@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="28dp">
+
+    <EditText
+        android:id="@+id/editAutorSong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtNewTranslation2"
+        app:layout_constraintTop_toBottomOf="@+id/editNameSong" />
+
+    <TextView
+        android:id="@+id/txtNewTranslation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/autorSong"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNameSong" />
+
+    <TextView
+        android:id="@+id/txtNewWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/nameSong"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editNameSong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtNewWord"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editVideoSong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtNewTranslation"
+        app:layout_constraintTop_toBottomOf="@+id/editAutorSong" />
+
+    <TextView
+        android:id="@+id/txtNewTranslation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/linkVideoSong"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAutorSong" />
+
+    <TextView
+        android:id="@+id/txtNewTranslation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/ratingSong"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editVideoSong" />
+
+    <RatingBar
+        android:id="@+id/dialogRatingSong"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:isIndicator="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtNewTranslation3"
+        app:layout_constraintStart_toEndOf="@+id/txtNewTranslation3"
+        app:layout_constraintTop_toTopOf="@+id/txtNewTranslation3" />
+
+    <ImageButton
+        android:id="@+id/imgBtnState1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtnState2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogRatingSong"
+        app:srcCompat="@drawable/hora2" />
+
+    <ImageButton
+        android:id="@+id/imgBtnState2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgBtnState1"
+        app:layout_constraintTop_toBottomOf="@+id/dialogRatingSong"
+        app:srcCompat="@drawable/libro1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/aprender"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtnState1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnState1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnState1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/aprendida"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtnState2"
+        app:layout_constraintStart_toStartOf="@+id/imgBtnState2"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnState2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

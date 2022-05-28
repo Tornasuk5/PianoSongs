@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#eceff1</color>
+    <color name="whiteOp">#e0e1e1</color>
+    <color name="blue">#1e88e5</color>
+    <color name="black">#212121</color>
+    <color name="red">#ef5350</color>
+    <color name="purple">#512da8</color>
+    <color name="green">#4caf50</color>
+    <color name="orange">#fdd835</color>
+    <color name="blackOp3">#70000000</color>
+    <color name="blackOp">#80000000</color>
+    <color name="blackOp2">#90000000</color>
+</resources>
