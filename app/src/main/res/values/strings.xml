@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Piano Songs</string>
+    <string name="nameSong">Nombre:</string>
+    <string name="autorSong">Autor:</string>
+    <string name="ratingSong">Valoración:</string>
+    <string name="linkVideoSong">Video:</string>
+    <string name="ok">Añadir</string>
+    <string name="aprender">Aprender</string>
+    <string name="aprendida">Aprendida</string>
+    <string name="barSearch">Buscar</string>
+    <string name="noVideo">Esta canción no tiene synthesia</string>
+
+</resources>

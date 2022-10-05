@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484043843044",
+    "firebase_url": "https://pianosongs5-default-rtdb.firebaseio.com",
+    "project_id": "pianosongs5",
+    "storage_bucket": "pianosongs5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484043843044:android:1b84f6dd355079459953f1",
+        "android_client_info": {
+          "package_name": "tornasuk.pianosongs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484043843044-mpi6k48f7s1vkfv1l5r3mpgnroh0socd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tornasuk.pianosongs",
+            "certificate_hash": "1fe3576a315b7fe4a3a97d7af8060304b90205aa"
+          }
+        },
+        {
+          "client_id": "484043843044-ck0tb92rlpvoqln05go02dd7neeeeg9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaV5aH_CxeMphq3wuTF_dj-7ltbNoM3yY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484043843044-ck0tb92rlpvoqln05go02dd7neeeeg9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

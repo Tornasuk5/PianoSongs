@@ -1,0 +1,9 @@
+
+Œ
+java:S1319 "qThe type of the "songs2" object should be an interface such as "List" rather than the implementation "ArrayList".(ôôÖÕúÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'android.util.Patterns'.(Á¢Èþ
+>
+java:S1659Z"#Declare "autor" on a separate line.(€ö‚†ûÿÿÿÿ
+<
+java:S1659\"&Declare "btnState" on a separate line.(Žêƒö
